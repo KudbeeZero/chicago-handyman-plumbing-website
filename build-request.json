@@ -1,0 +1,46 @@
+{
+  "kind": "build_request",
+  "title": "Fix hero section to display the wide banner image (Image 1)",
+  "projectName": "I Got a Dom",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Save the uploaded wide banner image (A1EB606A-8094-4BB7-93B6-3C6A9B809C15-2.png — navy background with Chicago skyline, plumber mascot shield logo, and 'I GOT A DOM' text) as the hero background image at frontend/public/assets/generated/hero-banner.dim_1334x750.png and render it as the full-width hero section background on the Home page.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6",
+          "msg-7",
+          "msg-8"
+        ],
+        "quotes": [
+          "make sure that the image was working on the hero page",
+          "Image 1",
+          "the wide banner with the Chicago skyline background — as the hero image"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The wide banner image (navy/Chicago skyline/plumber mascot) is visible as the hero section background on the Home page",
+        "The image spans the full width of the hero section without being cut off or misaligned",
+        "The image is saved to frontend/public/assets/generated/hero-banner.dim_1334x750.png and referenced via a static asset path",
+        "The hero section displays correctly on both desktop and mobile viewports"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change the backend schema or any backend logic",
+    "Do not modify immutable frontend paths (hooks, main.tsx, ui components)"
+  ],
+  "nonGoals": [
+    "Redesigning any other section of the website",
+    "Adding new pages or features",
+    "Using Image 2 (white background logo) as the hero image"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Wide horizontal banner with a dark navy textured background, Chicago city skyline silhouette in the center-background, a plumber mascot in a shield badge on the left (man in navy cap and uniform with crossed arms holding a red pipe wrench), and bold text 'I GOT A DOM' in white and red on the right (hero-banner.dim_1334x750.png)"
+    ],
+    "edits": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Fix hero section to display the wide banner image",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Save the uploaded wide banner image (navy background with Chicago skyline, plumber mascot shield logo, and 'I GOT A DOM' text) to frontend/public/assets/generated/hero-banner.dim_1334x750.png and render it as the full-width hero section background on the Home page",
+      "acceptanceCriteria": [
+        "The wide banner image (navy/Chicago skyline/plumber mascot) is visible as the hero section background on the Home page",
+        "The image spans the full width of the hero section without being cut off or misaligned",
+        "The image is saved to frontend/public/assets/generated/hero-banner.dim_1334x750.png and referenced via a static asset path",
+        "The hero section displays correctly on both desktop and mobile viewports"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/hero-banner.dim_1334x750.png",
+          "operation": "create",
+          "description": "Save the uploaded wide banner image (A1EB606A-8094-4BB7-93B6-3C6A9B809C15-2.png) with the navy textured background, Chicago skyline silhouette, plumber mascot in shield badge on the left holding a red pipe wrench, and bold 'I GOT A DOM' text in white and red on the right to this workspace path. This image will be used as the hero section background."
+        },
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update the hero section to use the generated hero-banner.dim_1334x750.png image as the background. Replace any existing background styling with a background image reference to /assets/generated/hero-banner.dim_1334x750.png. Ensure the hero section uses responsive styling (bg-cover or bg-contain as appropriate, bg-center positioning) so the image spans the full width without being cut off. Maintain existing hero content (heading, CTA buttons) with proper contrast/readability over the new background. Test on both desktop and mobile viewports to ensure correct display."
+        }
+      ]
+    }
+  ]
+}

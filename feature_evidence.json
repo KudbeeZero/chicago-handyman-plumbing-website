@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-save-the-uploaded-wide-banner-image-a1eb606a-8094-4bb7-93b6-3c6a9b809c15-2-png-navy-background-with-chicago-skyline-plumber-mascot-shield-logo-and-i-got-a-dom-text-as-the-hero-background-image-at-frontend-public-assets-generated-hero-banner-dim-1334x750-png-and-render-it-as-the-full-width-hero-section-background-on-the-home-page",
+      "featureTitle": "Save the uploaded wide banner image (A1EB606A-8094-4BB7-93B6-3C6A9B809C15-2.png — navy background with Chicago skyline, plumber mascot shield logo, and 'I GOT A DOM' text) as the hero background image at frontend/public/assets/generated/hero-banner.dim_1334x750.png and render it as the full-width hero section background on the Home page.",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "blob-storage@4.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

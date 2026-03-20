@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Building the 'I Got a Dom' plumbing/home services business website for a Chicago-based company. The hero section uses a wide banner image with Chicago skyline background (Image 1).",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Wide horizontal banner with a dark navy textured background, Chicago city skyline silhouette in the center-background, a plumber mascot in a shield badge on the left (man in navy cap and uniform with crossed arms holding a red pipe wrench), and bold text 'I GOT A DOM' in white and red on the right (hero-banner.dim_1334x750.png)",
+  "existing_features": [
+    {
+      "id": "feature-save-the-uploaded-wide-banner-image-a1eb606a-8094-4bb7-93b6-3c6a9b809c15-2-png-navy-background-with-chicago-skyline-plumber-mascot-shield-logo-and-i-got-a-dom-text-as-the-hero-background-image-at-frontend-public-assets-generated-hero-banner-dim-1334x750-png-and-render-it-as-the-full-width-hero-section-background-on-the-home-page",
+      "title": "Save the uploaded wide banner image (A1EB606A-8094-4BB7-93B6-3C6A9B809C15-2.png — navy background with Chicago skyline, plumber mascot shield logo, and 'I GOT A DOM' text) as the hero background image at frontend/public/assets/generated/hero-banner.dim_1334x750.png and render it as the full-width hero section background on the Home page.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with wide banner/Chicago skyline background image (Image 1)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Professional plumbing/home services business website for 'I Got a Dom LLC'",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "I Got a Dom",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
